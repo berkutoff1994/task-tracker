@@ -1,0 +1,42 @@
+.ticket {
+    display: flex;
+    flex-direction: column;
+    max-width: 225px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 8px, rgba(0, 0, 0, 0.04) 0px 4px 24px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerItem {
+    margin-bottom: 8px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.bodyItem {
+    margin-bottom: 8px;
+}
+
+.description {
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    flex: 1 1 auto;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
